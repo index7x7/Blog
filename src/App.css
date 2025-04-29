@@ -1,15 +1,18 @@
+.body{
+margin: 0;
+padding: 0;
+width: 100%;
+height: auto;
+}
+
 .title{
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 100px 100px;
-  margin-left: 700px;
-  margin-top: -400px
 }
 .section{
   display: flex;
-  align-items: center;
-
+  padding-left: 10px;
 }
 .container{
   background-color: rgb(255, 255, 255);
@@ -18,13 +21,16 @@
   width: 1000px;
   height: 300px;
   display: flex;
-  align-items: center;
   flex-direction: column;
-  margin-left: 600px;
+  padding: 10px;
+  margin-bottom: 10px;
+  
 }
 .img{
   display: flex;
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  margin-top: 15px;
+  margin-right: 3px;
 }
