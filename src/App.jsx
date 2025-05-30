@@ -14,11 +14,6 @@ function App() {
         <h2 className="title"> Biografia </h2>
       </div>
       <Blog></Blog>
-      <Blog></Blog>
-      <Blog></Blog>
-      <Blog></Blog>
-      <Blog></Blog>
-      
       </div>
     </>
   )
