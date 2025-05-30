@@ -1,36 +1,71 @@
-.body{
-margin: 0;
-padding: 0;
-width: 100%;
-height: auto;
+.App {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
 }
 
-.title{
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.adicionar-tarefa {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.adicionar-tarefa input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+}
+
+.adicionar-tarefa button {
+  padding: 10px 15px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.lista-tarefas {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lista-tarefas li {
   display: flex;
   align-items: center;
-  flex-direction: column;
-}
-.section{
-  display: flex;
-  padding-left: 10px;
-}
-.container{
-  background-color: rgb(255, 255, 255);
-  border: solid 15px black;
-  border-radius: 20px;
-  width: 1000px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
   padding: 10px;
-  margin-bottom: 10px;
-  
+  border-bottom: 1px solid #eee;
 }
-.img{
+
+.lista-tarefas li.concluida span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.lista-tarefas li span {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.lista-tarefas li button {
+  padding: 5px 10px;
+  background: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.info {
+  margin-top: 20px;
   display: flex;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  margin-top: 15px;
-  margin-right: 3px;
+  justify-content: space-between;
+  color: #666;
 }
